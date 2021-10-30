@@ -1,0 +1,66 @@
+img{
+    border: 1px solid red;
+}
+
+h1{
+    background-color: black;
+}
+
+h1,h2{
+    color: gray;
+}
+
+.s h2{
+    border: 1px solid green;
+}
+
+#mon > span{
+    color: pink;
+}
+
+#mon div span{
+    border: 1px solid red;
+}
+
+#mon > div > span{
+    background-color: yellow;
+}
+
+#wed:hover h2{
+    color: green;
+}
+
+#mon:hover h2,
+#tue:hover h2{
+    color: red;
+}
+
+h1,h2{
+    color: pink;
+}
+/* Equal specificity: the latest rule counts */
+
+ul li:first-of-type {
+    font-weight: 700;
+}
+
+
+ul li:nth-of-type(2){
+    color: red;
+}
+
+#tue span:first-of-type {
+    color:blue
+}
+
+#tue span:nth-of-type(2){
+    font-size:200%;
+}
+
+ul  li:nth-of-type(9){
+    color: blue;
+}
+
+ul  li:nth-of-type(5n+3){
+    color: green;
+}
